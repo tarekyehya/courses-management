@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="signup.css">
+
+</head>
+<body>
+
+
+<form    onsubmit="return myFunction()" action="signup.php" method="post" class="firstform">
+    <h1>sign up</h1>
+    <h4>this is small animated </h4>
+<input type="text" placeholder="your name" id="name" name="username">
+<br>
+<input type="password" placeholder="your password" id="password" name="pass">
+<br>
+<input type="reset" style="position:absolute;left:90px;top:175px" id="reset" >
+<input type="submit" value="signup"  id="submit" name="submit">
+<input type="submit" value="login" id="submit2" name="submit2">
+
+</form>
+
+
+<!--
+<input type="button" value="login" onclick="window.location.href='signup.php'" id="submit2" name="" >
+-->
+
+
+<script src="jquery-1.11.1.min.js"></script>
+<script src="signupjq.js"></script>
+<script src="signup.js"></script>
+</body>
+</html>
+
+
+
+
