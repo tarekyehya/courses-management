@@ -1,0 +1,47 @@
+
+.firstform{
+    border:2px solid black;
+    width:0px;
+    height:0px;
+    text-align:center;
+    color:white;
+    background-color:#333;
+    position:relative;
+    top:-20px;
+    left:-20px;
+    overflow:hidden;
+    }
+    
+    #name,#password{
+    text-align:center;
+    }
+    
+    #password{
+    position:absolute;
+    top:145px;
+    left:88px;
+    }
+    
+    #submit,span{
+    position:absolute;
+    top:175px;
+    }
+
+    #submit{
+    position:absolute;
+    left:205px;
+    }
+    
+    #submit2{
+    position:absolute;
+    top:200px;
+    left:90px;
+    width:170px;
+    opacity:0;
+    }
+
+
+
+
+
+
