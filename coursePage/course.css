@@ -1,0 +1,15 @@
+form{
+    background-color:#ccf5ff;
+
+ 
+    float:center;
+    border: 2px black;
+
+}
+h1{
+    text-align: center;
+    
+}
+h1:hover{
+    color :red;
+}
