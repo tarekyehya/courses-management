@@ -12,7 +12,8 @@
     Create page to save courses with its details (instructor, room, price, parent course,
      students, and grades of course, start date, days of course, end date).
   -->
-<form action="course-connection.php" method="post">
+<form action="<?=$_SERVER['PHP_SELF'];?>" method="post">
+{{csrf_field()}}
     <h1>  course-addition </h1>
   
     <div class="form-group">           
