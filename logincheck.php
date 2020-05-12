@@ -3,7 +3,7 @@
     require 'loginconnection.php';
     if(isset($_POST['submit']))
     {    
-		$query ='select * from testphp where (name = "'.$_POST['username'].'") AND password = "'.$_POST['pass'].'"';
+		$query ='select * from users where (name = "'.$_POST['username'].'") AND password = "'.$_POST['pass'].'"';
         $result = mysqli_query($connect, $query);
         
         if($row = mysqli_fetch_assoc($result))

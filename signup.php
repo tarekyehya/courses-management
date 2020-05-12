@@ -7,7 +7,7 @@ $password=$_POST["pass"];
 
 
 if(isset($_POST["submit"])){
-$query="insert into testphp (name,password) values('".$_POST["username"]."','".$_POST["pass"]."')";
+$query="insert into users (name,password) values('".$_POST["username"]."','".$_POST["pass"]."')";
 $result = mysqli_query($connect, $query);
 if($result == 1){
  echo "<script> alert('the user has been inserted');</script>";
@@ -20,7 +20,7 @@ else{
 
 else if(isset($_POST["submit2"])){
   
-		$query ='select * from testphp where (name = "'.$_POST['username'].'") AND password = "'.$_POST['pass'].'"';
+		$query ='select * from users where (name = "'.$_POST['username'].'") AND password = "'.$_POST['pass'].'"';
         $result = mysqli_query($connect, $query);
         if($row = mysqli_fetch_assoc($result))
         {
