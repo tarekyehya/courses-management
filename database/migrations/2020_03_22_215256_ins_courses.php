@@ -16,7 +16,7 @@ class InsCourses extends Migration
         Schema::create('ins_courses', function (Blueprint $table) {
             $table->string('course_1', 100);
             $table->string('course_2', 100);
-            $table->string('ins_id', 100);
+            $table->string('student_id', 100);
         });
     }
 
