@@ -14,16 +14,19 @@ class Courses extends Migration
     public function up()
     {
         Schema::create('courses', function (Blueprint $table) {
-            $table->id();
-            $table->string('name', 100);
+            $table->increments('id');
+            $table->string('name', 100)->default('none');
             $table->string('price', 100);
             $table->string('parent_course', 100);
-            $table->string('grade', 100);
-            $table->string('branch', 100);
+            $table->string('grade', 100)->default('none');
+            $table->string('branch', 100)->default('none');
             $table->string('room', 100);
             $table->string('instructor', 100);
-            $table->string('stu_courses', 100);
-            $table->string('ins_course', 100);
+            $table->string('stu_courses', 100)->default('none');
+            $table->string('ins_course', 100)->default('none');
+            //  defaults
+            
+           
             
         });
     }

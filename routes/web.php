@@ -16,6 +16,5 @@ use app\Courses;
 Route::get('', function () {
     return view('welcome');
 });
-Route::get('/courses', function () {
-    return view('courses.page');
-});
+Route::view('courses', 'courses.page');
+Route::post('submit', 'courses@save');
