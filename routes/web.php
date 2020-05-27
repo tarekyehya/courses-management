@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use app\Courses;
+use Illuminate\Support\Facades\DB;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +15,13 @@ use app\Courses;
 |
 */
 
-Route::get('', function () {
-    return view('welcome');
-});
+
+
 Route::get('/courses', function () {
+
     return view('courses.page');
 });
+
+Route::get('/', 'ConfigCourse@loginViwe');
+
+Route::get('/login', 'ConfigCourse@login');
