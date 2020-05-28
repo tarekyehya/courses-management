@@ -14,7 +14,7 @@
                      <h1> welcome to courses  management system  </h1>
                       <br>
                      <!--      courses   page    -->
-                      <a href="{{ url('/courses') }}" class="btn btn-xs btn-info pull-right">
+                      <a href="{{ url('courses') }}" class="btn btn-xs btn-info pull-right">
                       
                       <button>
                       Add new course
