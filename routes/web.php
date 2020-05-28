@@ -18,3 +18,4 @@ Route::get('', function () {
 });
 Route::view('courses', 'courses.page');
 Route::post('submit', 'courses@save');
+// Route::get('coureses','courses@courses');
