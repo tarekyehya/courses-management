@@ -11,6 +11,16 @@
 
         <!-- Styles -->
        <body>
-                    <p> welcom   to course management   </p>
+                     <h1> welcome to courses  management system  </h1>
+                      <br>
+                     <!--      courses   page    -->
+                      <a href="{{ url('courses') }}" class="btn btn-xs btn-info pull-right">
+                      
+                      <button>
+                      Add new course
+                      </button>
+                      </a>
+                        <!--                end course page      -->
+                      
         </body>
 </html>

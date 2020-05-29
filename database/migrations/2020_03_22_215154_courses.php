@@ -23,11 +23,19 @@ class Courses extends Migration
             $table->string('room', 100);
             $table->string('instructor', 100);
             $table->string('stu_courses', 100)->default('none');
+<<<<<<< HEAD
             $table->string('ins_course', 100)->default('none');
             //  defaults
 
 
 
+=======
+          
+            
+            
+           
+            
+>>>>>>> 489cf06524a492f2528faaa6e0642e3b258cd174
         });
     }
 
