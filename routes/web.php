@@ -15,21 +15,15 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-<<<<<<< HEAD
 
 
-Route::get('/courses', function () {
+//Route::get('/courses', function () {
 
-    return view('courses.page');
-});
+//    return view('courses.page');
+//});
 
-Route::get('/', 'ConfigCourse@loginViwe');
+Route::get(' ', 'ConfigCourse@loginViwe');
 
 Route::get('/login', 'ConfigCourse@login');
-=======
-Route::get('', function () {
-    return view('welcome');
-});
 Route::view('courses', 'courses.page');
 Route::post('submit', 'courses@save');
->>>>>>> 2767caa5207fe78bbd29f9cf8a7270dfe514854e
