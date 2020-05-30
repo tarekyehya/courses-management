@@ -8,15 +8,15 @@
 </head>
 <body>
 
-<!--    
+<!--
     Create page to save courses with its details (instructor, room, price, parent course,
      students, and grades of course, start date, days of course, end date).
   -->
 <form action="submit" method="post">
      @csrf
     <h1>  course-addition </h1>
-  
-    <div class="form-group">           
+
+    <div class="form-group">
 <input type="text" class="form-control" placeholder="instructor name"  name="instructor">
 <br>
 <input type="number" class="form-control" placeholder="Price"  name="price">

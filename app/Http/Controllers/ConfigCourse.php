@@ -10,9 +10,18 @@ use App\users;
 
 class ConfigCourse extends Controller
 {
-    public function login()
+    public function studentview()
     {
-        return view('courses.student');
+      ///  $this->validate($r,[
+         //      'name' => 'required',
+           //    'pass' => 'required'
+
+             //              ]
+
+               //      );
+                 //    $name = $r->get('email');
+                   //  $password = $r->get('pass');
+            return view('courses.student');
     }
     public function loginViwe()
     {

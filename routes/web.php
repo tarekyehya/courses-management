@@ -15,28 +15,19 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 489cf06524a492f2528faaa6e0642e3b258cd174
 
 
-Route::get('/courses', function () {
 
-    return view('courses.page');
-});
 
-Route::get(' ', 'ConfigCourse@loginViwe');
+Route::get(' ','ConfigCourse@loginViwe');
 
-Route::get('/login', 'ConfigCourse@login');
-Route::view('courses', 'courses.page');
-Route::post('submit', 'courses@save');
-// Route::get('/', 'ConfigCourse@loginViwe');
+Route::get('/student', 'ConfigCourse@studentview');
 
-Route::get('/login', 'ConfigCourse@login');
+
+
 //   home page
 //Route::get('', function () {
-  //  return view('welcome');
+ //   return view('welcome');
 //});
 //********************************************************courses page***********************
 Route::view('courses', 'courses.page');
@@ -45,3 +36,7 @@ Route::post('submit', 'courses@save');
 
 // Route::get('coureses','courses@courses');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
