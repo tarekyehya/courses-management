@@ -15,10 +15,8 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 489cf06524a492f2528faaa6e0642e3b258cd174
+
 
 
 Route::get('/courses', function () {
@@ -39,7 +37,7 @@ Route::get('/login', 'ConfigCourse@login');
   //  return view('welcome');
 //});
 //********************************************************courses page***********************
-Route::view('courses', 'courses.page');
+Route::view('/login/courses', 'courses.page');
 Route::post('submit', 'courses@save');
 // ************************************end**************************
 
