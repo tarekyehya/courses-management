@@ -17,10 +17,26 @@
                       <a href="{{ url('courses') }}" class="btn btn-xs btn-info pull-right">
                       
                       <button>
-                      Add new course
+                           add  new course 
                       </button>
                       </a>
-                        <!--                end course page      -->
+
+                        <!--       end course page       -->
+                        
+           <br>
+           <br>
+   <div class="btn-group">
+  
+   <a href="{{ url('student') }}" class="btn btn-xs btn-info pull-right">
+                      
+                      <button>
+                      student
+                      </button>
+                      </a>
+
+   <button type="submit">instructor</button>
+
+</div>
                       
         </body>
 </html>

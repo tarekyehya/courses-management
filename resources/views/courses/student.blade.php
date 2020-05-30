@@ -14,12 +14,7 @@
     <button type="button">grades</button>
     <button type="button" class="btn btn-primary">see all courses</button>
     <button type="button" class="btn btn-primary">make a survey</button>
-    <a href="{{ url('/login/courses') }}" class="btn btn-xs btn-info pull-right">
-                      
-                <button>
-                      Add new course
-                 </button>
-      </a>
+    
   </div>
 </div>
 

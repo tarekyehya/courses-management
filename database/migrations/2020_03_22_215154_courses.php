@@ -21,10 +21,6 @@ class Courses extends Migration
             $table->string('instructor', 100);
           
 
-
-
-
-          
             
             
         
