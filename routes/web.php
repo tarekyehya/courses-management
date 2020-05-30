@@ -16,10 +16,7 @@ use Illuminate\Support\Facades\DB;
 */
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 406b0f34aaddec49f340545892445bcc66efcbf9
 
 
 
@@ -39,11 +36,8 @@ Route::post('/login/submit', 'courses@save');
 // ************************************end**************************
 
 // Route::get('coureses','courses@courses');
-<<<<<<< HEAD
 
 
 //Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
-=======
->>>>>>> 406b0f34aaddec49f340545892445bcc66efcbf9
