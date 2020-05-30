@@ -19,8 +19,6 @@ use Illuminate\Support\Facades\DB;
 
 
 
-
-
 Route::get('/courses', function () {
 
     return view('courses.page');
@@ -39,9 +37,8 @@ Route::get('/login', 'ConfigCourse@login');
   //  return view('welcome');
 //});
 //********************************************************courses page***********************
-Route::view('courses', 'courses.page');
-Route::post('submit', 'courses@save');
+Route::view('/login/courses', 'courses.page');
+Route::post('/login/submit', 'courses@save');
 // ************************************end**************************
 
 // Route::get('coureses','courses@courses');
-
