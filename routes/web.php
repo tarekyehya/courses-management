@@ -38,7 +38,7 @@ Route::get('/login', 'ConfigCourse@login');
 //});
 //********************************************************courses page***********************
 Route::view('/login/courses', 'courses.page');
-Route::post('submit', 'courses@save');
+Route::post('/login/submit', 'courses@save');
 // ************************************end**************************
 
 // Route::get('coureses','courses@courses');
