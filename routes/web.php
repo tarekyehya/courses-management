@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 489cf06524a492f2528faaa6e0642e3b258cd174
+
+
+
 
 
 Route::get('/courses', function () {
