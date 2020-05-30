@@ -19,19 +19,15 @@ use Illuminate\Support\Facades\DB;
 
 
 
-Route::get('/courses', function () {
 
-    return view('courses.page');
-});
 
 Route::get(' ', 'ConfigCourse@loginViwe');
 
 Route::get('/login', 'ConfigCourse@login');
-Route::view('courses', 'courses.page');
-Route::post('submit', 'courses@save');
+
 // Route::get('/', 'ConfigCourse@loginViwe');
 
-Route::get('/login', 'ConfigCourse@login');
+// Route::get('/login', 'ConfigCourse@login');
 //   home page
 //Route::get('', function () {
   //  return view('welcome');
