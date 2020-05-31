@@ -37,3 +37,10 @@ Route::view('student', 'courses.student');
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('users/{user}', 'HomeController@edit')->name('users.edit');
+Route::delete('users/{user}', 'HomeController@destroy')->name('users.destroy');
+Route::put('users/{user}', 'HomeController@update')->name('users.update');
