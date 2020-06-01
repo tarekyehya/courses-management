@@ -14,6 +14,7 @@ class courses extends Controller
           $Course->price=$req->price;
           $Course->parent_course=$req->parent_course;
           $Course->room=$req->room;
+          $Course->name=$req->name;
     
          echo  $Course->save();
 

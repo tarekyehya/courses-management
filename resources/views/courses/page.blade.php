@@ -17,6 +17,8 @@
     <h1>  course-addition </h1>
 
     <div class="form-group">
+<input type="text" class="form-control" placeholder="course name "  name="name">
+<br>  
 <input type="text" class="form-control" placeholder="instructor name"  name="instructor">
 <br>
 <input type="number" class="form-control" placeholder="Price"  name="price">
