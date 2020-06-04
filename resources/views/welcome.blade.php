@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Laravel</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+        <!-- Styles -->
+       <body>
+                     <h1> welcome to courses  management system  </h1>
+                      <br>
+                     <!--      courses   page    -->
+                      <a href="{{ url('courses') }}" class="btn btn-xs btn-info pull-right">
+                      
+                      <button>
+                           add  new course 
+                      </button>
+                      </a>
+
+                        <!--       end course page       -->
+                        
+           <br>
+           <br>
+   <div class="btn-group">
+  
+   <a href="{{ url('student') }}" class="btn btn-xs btn-info pull-right">
+                      
+                      <button>
+                      student
+                      </button>
+                      </a>
+
+   <button type="submit">instructor</button>
+
+</div>
+                      
+        </body>
+</html>
